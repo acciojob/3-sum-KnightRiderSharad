@@ -22,9 +22,4 @@ function threeSum(arr, target) {
     // Return the closest sum found
     return closestSum;
 }
-let arr = [ -1, 2, 1, -4 ];
-let target = 1;
- 
-document.write(solution(arr, target));
-}
 module.exports = threeSum;
